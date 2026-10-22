@@ -1,0 +1,33 @@
+# Network Security Assessment
+
+## Checks Completed
+
+- Windows Firewall: Enabled on all profiles checked.
+- Listening Ports: Found listening TCP ports on my Windows PC.
+- Initial Result: No conclusions about suspicious activity yet.
+- System: Personal Windows computer.
+
+## Next Steps
+
+- Identify what programs use the listening ports.
+- Review the results before making security recommendations.
+## Listening Port Review
+
+- Command used: Get-NetTCPConnection
+- Result: Found TCP listening ports and associated program names.
+- Assessment: Further review is needed to determine whether each service is expected.
+## Network Configuration
+
+- Command used: Get-NetIPConfiguration
+- Result: A Wi-Fi or Ethernet connection was listed.
+- Assessment: Network configuration was successfully retrieved.
+## HTTPS Connectivity Test
+
+- Command: Test-NetConnection -ComputerName google.com -Port 443
+- Result: TcpTestSucceeded = True
+- Assessment: Outbound TCP connectivity to Google on port 443 succeeded.
+## Post-Restart Firewall Check
+
+- Command: Get-NetFirewallProfile
+- Result: All three firewall profiles showed Enabled = True.
+- Assessment: Domain, Private, and Public firewall profiles were enabled during this check.
