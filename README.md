@@ -1,92 +1,106 @@
-\# Windows Network Security Assessment
+# Windows Network Security Assessment
 
 
 
-\## Project Overview
+## Project Overview
 
 This beginner cybersecurity project documents a basic network security review performed on my personal Windows computer.
 
 
 
-\## Objectives
+## Objectives
 
-\- Review Windows network configuration.
+- Review Windows network configuration.
 
-\- Identify local TCP listening ports and associated processes.
+- Identify local TCP listening ports and associated processes.
 
-\- Check Windows Defender Firewall status.
+- Check Windows Defender Firewall status.
 
-\- Test outbound HTTPS connectivity.
+- Test outbound HTTPS connectivity.
 
-\- Document observations and security recommendations.
-
-
-
-\## Tools Used
-
-\- Windows PowerShell
-
-\- Windows networking commands
-
-\- Windows Defender Firewall
-
-\- Windows Update
+- Document observations and security recommendations.
 
 
 
-\## Assessment Results
+## Tools Used
 
-\- \*\*Network configuration:\*\* Retrieved successfully.
+- Windows PowerShell
 
-\- \*\*Listening ports:\*\* TCP listening ports and associated process names were identified.
+- Windows networking commands
 
-\- \*\*Firewall:\*\* Domain, Private, and Public profiles were enabled during the checks.
+- Windows Defender Firewall
 
-\- \*\*Connectivity:\*\* A TCP connection test to Google on port 443 succeeded.
-
-\- \*\*Updates:\*\* Windows requested a restart to complete updates.
+- Windows Update
 
 
 
-\## Security Recommendations
+## Assessment Results
 
-\- Keep Windows and applications updated.
+- **Network configuration:** Retrieved successfully.
 
-\- Keep the appropriate Windows Firewall profiles enabled.
+- **Listening ports:** TCP listening ports and associated process names were identified.
 
-\- Investigate unfamiliar listening services before taking action.
+- **Firewall:** Domain, Private, and Public profiles were enabled during the checks.
 
-\- Avoid exposing unnecessary network services.
+- **Connectivity:** A TCP connection test to Google on port 443 succeeded.
 
-\- Repeat these checks periodically.
+- **Updates:** Windows requested a restart to complete updates.
 
 
 
-\## Scope and Limitations
+## Security Recommendations
+
+- Keep Windows and applications updated.
+
+- Keep the appropriate Windows Firewall profiles enabled.
+
+- Investigate unfamiliar listening services before taking action.
+
+- Avoid exposing unnecessary network services.
+
+- Repeat these checks periodically.
+
+
+
+## Scope and Limitations
 
 This assessment was limited to my own Windows computer. No unauthorized systems were scanned or accessed. This was a basic configuration review, not a full penetration test or vulnerability assessment.
 
 
 
-\## Skills Practiced
+## Skills Practiced
 
-\- Windows PowerShell
+- Windows PowerShell
 
-\- Basic networking
+- Basic networking
 
-\- TCP ports and connections
+- TCP ports and connections
 
-\- Firewall verification
+- Firewall verification
 
-\- Security documentation
+- Security documentation
 
-\- Basic troubleshooting
+- Basic troubleshooting
 
 
 
-\## What I Learned
+## What I Learned
 
 I practiced reviewing network configuration, identifying listening ports and processes, checking firewall profiles, and recording security findings. I also learned that individual successful checks do not guarantee that an entire computer or network is secure.
 
 
+## Evidence and Screenshots
 
+### Windows Firewall
+- [View Firewall Status Screenshot](evidence/firewall-status.png)
+- [View Firewall Status Results](evidence/firewall-status.txt)
+
+### Listening TCP Ports
+- [View Listening Ports Screenshot](evidence/listening-ports.png)
+- [View Listening Ports Results](evidence/listening-ports.txt)
+
+### Network Configuration
+- [View Sanitized Network Configuration](evidence/network-config.txt)
+
+### Process Mapping
+- [View Port-to-Process Mapping](evidence/port-process-mapping.txt)
