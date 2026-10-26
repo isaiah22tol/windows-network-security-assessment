@@ -107,6 +107,12 @@ I practiced reviewing network configuration, identifying listening ports and pro
 - [View Listening Ports Screenshot](evidence/listening-ports.png)
 - [View Listening Ports Results](evidence/listening-ports.txt)
 
+## Next Steps
+
+- Review listening ports and research the purpose of each service.
+- Learn how Windows Firewall rules control network traffic.
+- Perform additional defensive checks on my own computer.
+- Continue documenting findings and improving this project as I learn.
 ### Network Configuration
 - [View Sanitized Network Configuration](evidence/network-config.txt)
 
