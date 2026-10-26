@@ -60,6 +60,14 @@ This beginner cybersecurity project documents a basic network security review pe
 
 - Repeat these checks periodically.
 
+## Security Findings Summary
+-Firewall status: Domain, Private, and Public profiles were enabled during the check.
+
+-Listening ports: Multiple Windows and application listeners were present.
+
+-Process identification: You matched listening ports to running processes.
+
+-Limitations: You have not yet verified every listener’s purpose, firewall-rule exposure, or security risk.
 
 
 ## Scope and Limitations
